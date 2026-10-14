@@ -3,6 +3,135 @@
 <head>
     <title>Beranda</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+    /* Mengatur latar belakang umum dan font agar lebih rapi */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #4a4a4a;
+        background-color: darkgrey; /* Mempertahankan atribut HTML lama */
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Memperindah tabel utama dan memberikan efek bayangan lembut */
+    table {
+        border-collapse: collapse;
+        border-color: #ffd1dc !important;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    /* Header Tabel (Judul Website) */
+    tr:nth-child(1) td {
+        background: linear-gradient(135deg, #ff9ebb, #ffb6c1) !important;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 2.2em;
+        letter-spacing: 1px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Menu Navigasi */
+    tr:nth-child(2) td {
+        background-color: #ffe4e1 !important;
+        padding: 10px 15px;
+        text-align: center;
+    }
+
+    tr:nth-child(2) a {
+        color: #d81b60;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 6px 12px;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+        margin: 0 4px;
+        display: inline-block;
+    }
+
+    tr:nth-child(2) a:hover {
+        background-color: #ffb6c1;
+        color: #ffffff;
+    }
+
+    /* Konten Utama dan Sidebar */
+    td[width="75%"] {
+        background-color: #ffffff;
+        padding: 25px !important;
+        vertical-align: top;
+    }
+
+    td[width="25%"] {
+        background-color: #fff0f3 !important;
+        padding: 20px !important;
+    }
+
+    /* Tipografi Konten */
+    h3 {
+        color: #c71585;
+        margin-top: 0;
+    }
+
+    p a {
+        color: #e75480;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    p a:hover {
+        text-decoration: underline;
+        color: #c71585;
+    }
+
+    /* Sidebar Tautan Eksternal */
+    td[width="25%"] p {
+        font-weight: bold;
+        color: #b03060;
+        border-bottom: 2px solid #ffb6c1;
+        padding-bottom: 5px;
+    }
+
+    ol {
+        padding-left: 20px;
+        margin: 10px 0;
+    }
+
+    ol li {
+        margin-bottom: 8px;
+    }
+
+    ol li a {
+        color: #d81b60;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    ol li a:hover {
+        color: #ff1493;
+        text-decoration: underline;
+    }
+
+    /* Footer */
+    tr:last-child td {
+        background-color: #ffb6c1 !important;
+        padding: 10px 15px !important;
+    }
+
+    tr:last-child font {
+        color: #ffffff !important;
+    }
+
+    /* Garis Pemisah (HR) */
+    hr {
+        border: none;
+        height: 1px;
+        background-color: #ffccd5;
+        margin: 20px 0;
+    }
+</style>
 </head>
 
 <body bgcolor="darkgrey" background="images/background.svg">
